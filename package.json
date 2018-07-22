@@ -1,0 +1,30 @@
+{
+    "name": "@menu-translator/core",
+    "version": "0.0.1",
+    "author": "Linnet Digital",
+    "description": "A Chinese menu translation application.",
+    "scripts": {
+        "install": "cd menu-translator-web && npm install && cd ../menu-translator-nativescript && node ../node_modules/nativescript/bin/tns install",
+        "build": "cd menu-translator-web && node ../node_modules/@angular/cli/bin/ng build",
+        "build.prod": "cd menu-translator-web && node ../node_modules/@angular/cli/bin/ng build --prod",
+        "build.aot": "cd menu-translator-web && node ../node_modules/@angular/cli/bin/ng build --aot",
+        "build.aot.prod": "cd menu-translator-web && node ../node_modules/@angular/cli/bin/ng build --aot --prod",
+        "start": "cd menu-translator-web && node ../node_modules/@angular/cli/bin/ng serve",
+        "start.prod": "cd menu-translator-web && node ../node_modules/@angular/cli/bin/ng serve --prod",
+        "start.aot": "cd menu-translator-web && node ../node_modules/@angular/cli/bin/ng serve --aot",
+        "start.aot.prod": "cd menu-translator-web && node ../node_modules/@angular/cli/bin/ng serve --aot --prod",
+        "start.android": "cd menu-translator-nativescript && node ../node_modules/nativescript/bin/tns run android",
+        "start.ios": "cd menu-translator-nativescript && node ../node_modules/nativescript/bin/tns run ios",
+        "livesync.android": "cd menu-translator-nativescript && node ../node_modules/nativescript/bin/tns livesync android --watch",
+        "livesync.ios": "cd menu-translator-nativescript && node ../node_modules/nativescript/bin/tns livesync ios --watch",
+        "test": "cd menu-translator-web && node ../node_modules/@angular/cli/bin/ng test",
+        "test-cc": "npm test -- -cc",
+        "test.android": "cd menu-translator-nativescript && node ../node_modules/nativescript/bin/tns test android --watch",
+        "test.ios": "cd menu-translator-nativescript && node ../node_modules/nativescript/bin/tns test ios --watch"
+    },
+    "devDependencies": {
+        "@angular/cli": "6.0.8",
+        "nativescript": "4.1.2"
+    },
+    "dependencies": {}
+}

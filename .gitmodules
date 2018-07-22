@@ -1,0 +1,9 @@
+[submodule "menu-translator-web"]
+	path = menu-translator-web
+	url = https://github.com/MikeJerred/menu-translator-web
+[submodule "menu-translator-shared"]
+	path = menu-translator-shared
+	url = https://github.com/MikeJerred/menu-translator-shared
+[submodule "menu-translator-nativescript"]
+	path = menu-translator-nativescript
+	url = https://github.com/MikeJerred/menu-translator-nativescript
